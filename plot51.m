@@ -1,6 +1,6 @@
 clear, clc;
 
-n = 50;
+n = 100;
 mat = zeros(n + 1, n + 1);
 vec = zeros(n + 1, 0);
 
