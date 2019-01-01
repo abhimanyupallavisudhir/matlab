@@ -7,7 +7,7 @@ vec = zeros(n + 1, 0);
 vec(2, 1) = 1;
 for i = 0:n
     for j = 0:n
-        mat(i + 1, j + 1) = (1-(-1)^(i+j+1))/(i+j+1) * mf(n)^(i+j+1);
+        mat(i + 1, j + 1) = (1 - (-1) ^ (i + j + 1)) / (i + j + 1) * mf(n) ^ (i + j + 1);
     end
 end
 
